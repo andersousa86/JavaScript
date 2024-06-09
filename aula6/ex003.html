@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEU PRIMEIRO PROGRAMA</title>
+    <style>
+        body{
+            background-color: rgb(72, 72, 119);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgb(241, 168, 73);
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente autem facere architecto neque molestias error numquam nesciunt iusto blanditiis placeat ratione sit hic, voluptatibus quia corporis pariatur est similique! Vitae.</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        //Usando template scrim sem concatenar
+        window.alert(`O resultado de ${n1} e ${n2} é ${s}.`)
+    </script>
+</body>
+</html>
